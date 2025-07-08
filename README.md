@@ -1,16 +1,21 @@
-# islami_app
+# 📱 Islami App
 
-A new Flutter project.
+_Islami App_ is a Flutter-based Islamic application designed to provide users with helpful spiritual tools such as a digital Sebha (prayer beads), Quran Radio, and more.
 
-## Getting Started
+🚧 **Note:** This project is still under development. Features, UI, and logic may change frequently as it evolves.
 
-This project is a starting point for a Flutter application.
+## ✨ Features (Planned & In Progress)
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Digital Sebha with rotating animation
+- ✅ Radio tab with play/pause and volume controls
+- ⏳ Audio streaming for Quran recitations
+- ⏳ Dark/Light theme support
+- ⏳ Multilingual support (Arabic / English)
+- ⏳ Daily Azkar / notifications
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter** (UI & Logic)
+- **Dart** (Language)
+- **SVG Assets** for custom icons
+- **MediaQuery** for responsive design
