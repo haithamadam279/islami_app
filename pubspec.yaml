@@ -1,0 +1,40 @@
+name: islami_app
+description: "New Flutter Project"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  introduction_screen: ^3.1.17
+  flutter_svg: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: KamaliRegular
+      fonts:
+        - asset: assets/fonts/KamaliRegular-pg81r.ttf
+    - family: JannaLT
+      fonts:
+        - asset: assets/fonts/Janna LT Bold.ttf
+    - family: KamaliRegularAlt
+      fonts:
+        - asset: assets/fonts/KamaliRegular-xR725.otf
