@@ -46,7 +46,6 @@ class OnBoardingScreen extends StatelessWidget {
         ),
         globalHeader: const Align(
           alignment: Alignment.topCenter,
-
           child: Image(
             image: AssetImage("assets/images/header.png"),
             width: 300,
