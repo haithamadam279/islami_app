@@ -9,29 +9,25 @@ class RadioTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-            child: DefaultTabController(
-              length: 2,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  const CustomTabBar(),
-                  const SizedBox(height: 12),
-                  const Expanded(
-                    child: TabBarView(
-                      children: [RadioTabView(), RecitersTabView()],
-                    ),
-                  ),
-                ],
+    return Expanded(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+        child: DefaultTabController(
+          length: 2,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              const CustomTabBar(),
+              SizedBox(height: 10),
+              const Expanded(
+                child: TabBarView(
+                  children: [RadioTabView(), RecitersTabView()],
+                ),
               ),
-            ),
+            ],
           ),
         ),
-      ],
+      ),
     );
   }
 }

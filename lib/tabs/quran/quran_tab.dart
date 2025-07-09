@@ -5,6 +5,11 @@ class QuranTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('Quran'));
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text('Suras List', style: Theme.of(context).textTheme.titleMedium),
+      ],
+    );
   }
 }

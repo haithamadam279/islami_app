@@ -14,5 +14,13 @@ class AppTheme {
       selectedItemColor: white,
       showUnselectedLabels: false,
     ),
+
+    textTheme: TextTheme(
+      titleMedium: TextStyle(
+        fontSize: 16,
+        fontWeight: FontWeight.bold,
+        color: Colors.white,
+      ),
+    ),
   );
 }

@@ -26,17 +26,18 @@ class _HomeScreenState extends State<HomeScreen> {
   ];
 
   List<String> backgroundImageNames = [
-    'quranbg',
-    'hadeethbg',
-    'sebhabg',
-    'radiobg',
-    'timebg',
+    'quran_background',
+    'hadeeth_background',
+    'sebha_background',
+    'radio_background',
+    'time_background',
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        width: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage(

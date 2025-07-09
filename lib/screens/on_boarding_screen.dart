@@ -48,7 +48,7 @@ class OnBoardingScreen extends StatelessWidget {
           alignment: Alignment.topCenter,
 
           child: Image(
-            image: AssetImage("assets/images/Mosque-03.png"),
+            image: AssetImage("assets/images/header.png"),
             width: 300,
           ),
         ),

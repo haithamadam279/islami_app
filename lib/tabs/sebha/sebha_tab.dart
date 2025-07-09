@@ -9,36 +9,12 @@ class SebhaTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Container(
-          decoration: const BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage('assets/images/sebhabg.png'),
-              fit: BoxFit.cover,
-            ),
-          ),
-        ),
-
-        // 🔹 Linear Gradient
-        Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [AppTheme.black.withValues(alpha: 0.7), Colors.black],
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-            ),
-          ),
-        ),
         SafeArea(
           child: SingleChildScrollView(
             child: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  Image.asset(
-                    'assets/images/Mosque-03.png',
-                    width: MediaQuery.of(context).size.width * 0.6,
-                  ),
-                  const SizedBox(height: 16),
                   Text(
                     "سَبِّحِ اسْمَ رَبِّكَ الأعلى ",
                     style: TextStyle(
