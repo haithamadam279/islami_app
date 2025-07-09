@@ -11,26 +11,6 @@ class RadioTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Container(
-          decoration: const BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage(
-                'assets/images/silhouette-woman-reading-quran.jpg',
-              ),
-              alignment: Alignment.center,
-              fit: BoxFit.cover,
-            ),
-          ),
-        ),
-        Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [AppTheme.black.withValues(alpha: 0.7), AppTheme.black],
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-            ),
-          ),
-        ),
         SafeArea(
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
@@ -39,15 +19,6 @@ class RadioTab extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/images/Mosque-03.png',
-                        fit: BoxFit.cover,
-                      ),
-                      // const SizedBox(height: 8),
-                    ],
-                  ),
                   const CustomTabBar(),
                   const SizedBox(height: 12),
                   const Expanded(

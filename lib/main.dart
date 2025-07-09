@@ -8,7 +8,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await CacheHelper.init();
 
-  bool onboardingSeen = CacheHelper.getEligibility();
+  bool onboardingSeen = false;
+  // CacheHelper.getEligibility();
 
   runApp(IslamiApp(onboardingSeen: onboardingSeen));
 }
